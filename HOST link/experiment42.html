@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Lists Example</title>
+
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: linear-gradient(to right, #ffecd2, #fcb69f);
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+        }
+
+        h1 {
+            text-align: center;
+            color: #d84315;
+        }
+
+        h2 {
+            color: #1976d2;
+            margin-top: 20px;
+        }
+
+        h3 {
+            color: #444;
+        }
+
+        ul, ol {
+            margin-left: 20px;
+        }
+
+        li {
+            margin: 6px 0;
+            padding: 5px;
+            border-radius: 6px;
+            transition: 0.3s;
+        }
+
+        li:hover {
+            background: #ffe0b2;
+            transform: translateX(5px);
+        }
+
+    
+        ul {
+            list-style-type: disc;
+        }
+
+        ul.circle {
+            list-style-type: circle;
+        }
+
+        ul.square {
+            list-style-type: square;
+        }
+
+      
+        ol {
+            padding-left: 20px;
+        }
+
+       
+        dt {
+            font-weight: bold;
+            color: #0d47a1;
+        }
+
+        dd {
+            margin-bottom: 10px;
+            color: #555;
+        }
+
+        hr {
+            margin: 20px 0;
+        }
+
+        .footer {
+            text-align: center;
+            font-weight: bold;
+            color: #555;
+        }
+    </style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>📋 HTML Lists Example</h1>
+<h3>Name: Madhuri Farakate</h3>
+<h3>Roll Number: 46</h3>
+
+<h2>Unordered List (Bulleted)</h2>
+<ul>
+    <li>Apple</li>
+    <li>Banana</li>
+    <li>Mango</li>
+    <li>Orange</li>
+</ul>
+
+<h3>Different Bullet Styles</h3>
+<ul class="circle">
+    <li>Circle Bullet</li>
+</ul>
+
+<ul class="square">
+    <li>Square Bullet</li>
+</ul>
+
+<h2>Ordered List (Numbered)</h2>
+<ol>
+    <li>Wake up</li>
+    <li>Brush teeth</li>
+    <li>Have breakfast</li>
+    <li>Go to college</li>
+</ol>
+
+<h3>Different Numbering Types</h3>
+<ol type="A">
+    <li>Option A</li>
+    <li>Option B</li>
+</ol>
+
+<ol type="a">
+    <li>Option a</li>
+    <li>Option b</li>
+</ol>
+
+<ol type="I">
+    <li>Step I</li>
+    <li>Step II</li>
+</ol>
+
+<h2>Nested List (List inside List)</h2>
+<ul>
+    <li>Fruits
+        <ul>
+            <li>Apple</li>
+            <li>Mango</li>
+        </ul>
+    </li>
+    <li>Vegetables
+        <ul>
+            <li>Carrot</li>
+            <li>Potato</li>
+        </ul>
+    </li>
+</ul>
+
+<h2>Description List</h2>
+<dl>
+    <dt>HTML</dt>
+    <dd>HyperText Markup Language</dd>
+
+    <dt>CSS</dt>
+    <dd>Cascading Style Sheets</dd>
+
+    <dt>JS</dt>
+    <dd>JavaScript</dd>
+</dl>
+
+<hr>
+
+<p class="footer">Submitted by: Madhuri Farakate</p>
+
+</div>
+
+</body>
+</html>
